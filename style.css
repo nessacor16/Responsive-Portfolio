@@ -1,0 +1,141 @@
+/* css */
+
+
+html {
+    background-image: url(vintage-plain-background-7.jpg);
+    border-bottom-color: yellowgreen;
+ 
+}
+
+body {
+    background-image: url(488539.jpg);
+    background-size: cover;
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(229, 230, 198);
+    padding: 30px;
+    position: relative;
+    float: left;
+    margin-left: 90px;
+    top: 20px;
+    left: 200px;
+    font-size: 60px;
+    color: rgb(68, 15, 15);
+    border-radius: 20px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 30px 10px 10px rgb(58, 21, 21); 
+    border-block-end-color: lightcoral;
+     border-block-color: lightcora;
+    
+}
+.container{
+    background-image: url(rm27-ning-17-background.jpg);
+    background-size: cover;
+    padding: 110px;
+    margin: 150px;
+    width: 900px;
+    text-align: justify;
+    border-radius: 80px;
+    font-family: "Monaco", Georgia, Courier, Monaco, monospace, serif;
+    box-shadow: 30px 30px 30px rgb(58, 21, 21); 
+}
+.am {
+    background-color: rgb(235, 161, 100)
+    padding: 40px;
+    position: relative;
+    float: left;
+    top: -90px;
+    left: -100px;
+    font-size: 40px;
+    color: rgb(68, 15, 15);
+    border-radius: 10px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 5px 5px rgb(58, 21, 21); 
+}
+#apc {
+    background: rgb(229, 230, 198);
+    position: relative;
+    float: right;
+    font-size: 8px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-right: 350px;
+    margin-top: 80px;
+    font-style: ital-webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 10px 5px 5px rgb(58, 21, 21);
+    box-shadow: 20px 10px 10px rgb(58, 21, 21);
+     
+}
+
+
+ p {
+     position: relative;
+     text-align: start;
+     background: url();
+     margin-right: 20px;
+     padding: 20px;
+     -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+     box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+     box-shadow: 10px 5px 5px rgb(58, 21, 21);
+     box-shadow: 20px 10px 10px rgb(58, 21, 21);
+     font-size: 20px;
+     width: 100%;
+     margin: 20px;
+     border-block-end-color: lightcoral;
+     border-block-color: lightcora;
+ }
+
+ @media only screen and (max-width:980px) {
+     header {
+         margin-right: 100%;
+     }
+ }
+ @media only screen and (max-width:768px) {
+    html, body, header, .container, .container, #apc{
+        margin-right: 50%;
+        width: 50%;
+    }
+    p{
+        margin-left: 50%;
+    }
+ }
+ 
+ @media only screen and (max-width:640px) {
+    html, body, header, .container, .container, #apc,{
+        margin-right: 50%;
+        
+    }
+ }
+ @media only screen and (max-width:640px) {
+    header{
+        margin: 25px, 25px, 25x 50%;
+    }
+    .container, .container, p{
+        float: left;
+        margin: 25px, 50px, 50px;
+    }
+    p {
+      width: 50%;
+      margin: 25px, 50px, 50px;
+    }
+    img{
+        width: 50%;
+    }
+    #apc{
+        position: static;
+    }
+ }
+
+
+
+    
+ 
+
+

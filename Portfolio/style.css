@@ -1,0 +1,80 @@
+/* css */
+
+html {
+    background-image: url(vintage-plain-background-7.jpg);
+    border-bottom-color: yellowgreen;
+    height: 500px;
+}
+body {
+   
+header {
+    background-color: rgb(114, 112, 106);
+    padding: 30px;
+    position: relative;
+    float: left;
+    top: -30px;
+    left: 200px;
+    font-size: 60px;
+    color: rgb(68, 15, 15);
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgb(58, 21, 21); 
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 5px 5px rgb(58, 21, 21); 
+    border: skyblue;
+}
+#apc {
+    position: relative;
+    float: right;
+    background: rgb(114, 112, 106);
+    font-size: 8px;
+    font-style: oblique;
+    text-align: justify;
+    border-radius: 50px;
+    margin-right: 250px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 5px 5px rgb(58, 21, 21);
+    box-shadow: 20px 10px 10px rgb(58, 21, 21);
+}
+h2 {
+  position: relative;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  box-shadow: 60px -16px rgb(182, 106, 106);
+  box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 20px 20px rgb(58, 21, 21);
+    box-shadow: 20px 10px 10px rgb(58, 21, 21);
+}
+.nem {
+    border-radius: 10px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 20px 20px rgb(58, 21, 21); 
+    clear: both;
+    display: table;
+    padding: 10px;
+}
+
+img {
+    padding: 10px;
+}
+.footer {
+    position: relative;
+    background-color: rgb(194, 181, 181);
+    height: 10vh;
+    width: 80vw;
+    margin-top: 100px;
+    text-align: center;
+    color: blue;
+}
