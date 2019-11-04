@@ -1,6 +1,4 @@
 /* css */
-
-
 html {
     background-image: url(vintage-plain-background-7.jpg);
     border-bottom-color: yellowgreen;
@@ -34,7 +32,7 @@ header {
     
 }
 .container{
-    background-image: url(rm27-ning-17-background.jpg);
+    
     background-size: cover;
     padding: 110px;
     margin: 150px;
@@ -59,83 +57,47 @@ header {
     box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
     box-shadow: 10px 5px 5px rgb(58, 21, 21); 
 }
-#apc {
-    background: rgb(229, 230, 198);
-    position: relative;
-    float: right;
-    font-size: 8px;
-    text-align: justify;
-    border-radius: 10px;
-    margin-right: 350px;
-    margin-top: 80px;
-    font-style: ital-webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
-    box-shadow: 10px 5px 5px rgb(58, 21, 21);
-    box-shadow: 20px 10px 10px rgb(58, 21, 21);
-     
-}
 
-
- p {
+ 
+ form {
+     background: url(rm27-ning-17-background.jpg);
      position: relative;
+     border-radius: 10px;
      text-align: start;
-     background: url();
-     margin-right: 20px;
-     padding: 20px;
+     font-size: 20px;
+     margin-right: 10px;
+     margin-left: 100px;
+     padding: 30px;
      -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
      box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
      box-shadow: 10px 5px 5px rgb(58, 21, 21);
      box-shadow: 20px 10px 10px rgb(58, 21, 21);
-     font-size: 20px;
-     width: 100%;
-     margin: 20px;
+     margin-top: 50px;
      border-block-end-color: lightcoral;
      border-block-color: lightcora;
  }
+ h2 {
+     position: relative;
+     font-size: 50px;
+     padding: 5px;
+     background-color: rgb(224, 192, 166);
+     margin-top: 10px;
+     font-style: italic;
+     border-radius: 10px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 5px 5px rgb(58, 21, 21); 
+ }
+ #nem {
+     position: relative;
+     font-size: 30px;
+     margin-top: 20px;
+     border-radius: 10px;
+    box-sizing: content-box;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, -50px -40px 0px -26px rgba(0,0,0,0);
+    box-shadow: 10px 5px 5px rgb(58, 21, 21); 
+ }
 
- @media only screen and (max-width:980px) {
-     header {
-         margin-right: 100%;
-     }
- }
- @media only screen and (max-width:768px) {
-    html, body, header, .container, .container, #apc{
-        margin-right: 50%;
-        width: 50%;
-    }
-    p{
-        margin-left: 50%;
-    }
- }
  
- @media only screen and (max-width:640px) {
-    html, body, header, .container, .container, #apc,{
-        margin-right: 50%;
-        
-    }
- }
- @media only screen and (max-width:640px) {
-    header{
-        margin: 25px, 25px, 25x 50%;
-    }
-    .container, .container, p{
-        float: left;
-        margin: 25px, 50px, 50px;
-    }
-    p {
-      width: 50%;
-      margin: 25px, 50px, 50px;
-    }
-    img{
-        width: 50%;
-    }
-    #apc{
-        position: static;
-    }
- }
-
-
-
-    
- 
-
-
