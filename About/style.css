@@ -74,7 +74,6 @@ header {
      
 }
 
-
  p {
      position: relative;
      text-align: start;
@@ -90,6 +89,77 @@ header {
      margin: 20px;
      border-block-end-color: lightcoral;
      border-block-color: lightcora;
+ }
+
+ @media only screen and (max-width: 980px) {
+    header {
+        margin-right: 50px;
+        float: left;
+        position: relative;
+    } 
+ }
+
+ @media only screen and (max-width: 768px) {
+     body, html {
+         position: relative;
+         margin-right: 400px;
+     }
+     header {
+         margin-right: 100px;
+        float: left;
+        position: relative;
+        margin-top: -50px;
+     }
+
+     p {
+         position: relative;
+         font-size: 1.25rem;
+         margin-right: 150px;
+     }
+    #apc  {
+        position: relative;
+        margin-right: 100px;
+       
+    }  
+    .am {
+        margin-right: 50px;
+        position: relative;
+        clear: right;
+    }
+    .container {
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+ }
+
+ @media only screen and (max-width: 640px) {
+     header {
+         margin-right: 105px;
+         line-height: 1.15;
+     }
+     p {
+        position: relative;
+        font-size: 2.00rem;
+        margin-right: 100px;
+    }
+    #apc {
+        position: relative;
+        float: left;
+        line-height: 1.15;
+        margin-right: 200px;
+    }
+    .am {
+        position: relative;
+        margin-left: 20px;
+        margin-right: 100px;
+    }
+    .container {
+        position: relative;
+        margin-right: 200px;
+    }
+    image {
+        float: left;
+    }
  }
 
     
